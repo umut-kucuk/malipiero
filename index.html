@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!--Bootstrap Icons CSS-->
+  <link href="./css/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="./css/style.css" rel="stylesheet">
+
+
+  <title>Malipiero Project</title>
+</head>
+
+<body>
+
+  <header id="header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-danger py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#"><b>Malipiero Project</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#overview">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#content">Content</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#sources">Sources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#dataviz">Visualization</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="dark-bg" id="hero">
+    <div class="container">
+      <div class="d-flex h-100 flex-column text-light justify-content-center">
+        <h1 class="display-1">
+          Malipiero <span class="text-danger">Digital</span> Archive
+        </h1>
+        <p class="lead">
+          Gian Francesco Malipiero <br>
+          Venezia, 18 March 1882 – 1 August 1973
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="generic" id="overview">
+    <div class="container">
+      <h2 class="display-5 text-danger mb-5"><b>Project Overview</b></h2>
+      <div class="row mb-3">
+        <div class="col-sm-12 col-md-8 bg-light">
+          <div class="d-flex h-100 flex-column justify-content-center shadow p-4">
+            <p class="lh-base bg-light">
+              Gian Francesco Malipiero was a highly influential Italian composer who lived from 1882 to 1973. He was
+              born in Venice, Italy, and spent much of his life exploring and experimenting with various musical styles
+              and techniques. Malipiero's works often incorporate elements of folk music and are characterized by their
+              intricate harmonies and unconventional forms. He was also known for his extensive research into the music
+              of the Italian Renaissance and Baroque periods, which heavily influenced his own compositions.
+
+              Malipiero's contributions to the world of music were significant, both as a composer and a musicologist.
+              This digital archive aims to shed light on Malipiero's life and works, providing an in-depth look at his
+              compositions, his musical philosophy, and his lasting legacy in the world of classical music.
+
+              This study represents a preliminary stage of a larger project that may be developed in the future. As a
+              proof-of-concept, it serves as a demonstration of the project's feasibility and should not be regarded as
+              a completed project.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 p-0">
+          <img class="img-fluid" src="./img/malipiero.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-8 bg-light">
+          <div class="d-flex h-100 flex-column justify-content-center shadow p-4">
+            <p class="lh-base">
+              The archive contains three main types of content: textual documents, embedded videos, and network data
+              visualization. The textual documents include a collection of primary and secondary sources related to
+              Malipiero, such as reviews, and music scores. The embedded videos feature performances,
+              interviews, and documentaries related to Malipiero's music and life. Finally, the network data
+              visualization is an interactive visualization of the relationships and connections between different
+              elements related to Malipiero, such as his co-author relationships, works, and education.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 order-first p-0">
+          <img class="img-fluid" src="./img/orchestra.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="content">
+    <div class="container">
+      <h2 class="display-5 text-danger mb-5"><b>Content</b></h2>
+    </div>
+    <div class="container-fluid">
+
+
+      <div class="row">
+        <div class="col-xl-4 col-sm-4 p-0">
+          <div class="content-item">
+            <button class="btn btn-primary p-0 rounded-0  border-0" type="button" data-bs-toggle="collapse"
+              data-bs-target="#itemDetail1" aria-expanded="false" aria-controls="collapseExample">
+              <img src="./img/videos.JPG" class="img-fluid">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <i class="bi bi-chevron-double-down"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-4 p-0">
+          <div class="content-item">
+            <button class="btn btn-primary p-0 rounded-0  border-0" type="button" data-bs-toggle="collapse"
+              data-bs-target="#itemDetail2" aria-expanded="false" aria-controls="collapseExample">
+              <img src="./img/textual.JPG" class="img-fluid">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <i class="bi bi-chevron-double-down"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-4 p-0">
+          <div class="content-item">
+            <button class="btn btn-primary p-0 rounded-0  border-0" type="button" data-bs-toggle="collapse"
+              data-bs-target="#itemDetail3" aria-expanded="false" aria-controls="collapseExample">
+              <img src="./img/scoresMusic.JPG" class="img-fluid">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <i class="bi bi-chevron-double-down"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="collapse" id="itemDetail1">
+          <div class="container-fluid mt-5 p-0">
+            <div class="row p-0">
+              <div class="col-sm-12 col-xl-6 shadow p-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://embd.eu/CxmYH4?autoplay=0" width="690px"
+                    height="630px" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="col-sm-12 col-xl-6 shadow p-3 ">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item"
+                    src="https://player.vimeo.com/video/136791522?h=9c9a750d77&autoplay=0" width="690px" height="630px"
+                    frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
+                  <h3>Description</h3>
+                </div>
+              </div>
+            </div>
+            <div class="row p-0">
+              <div class="col-sm-12 col-xl-6 shadow p-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" width='690px' height='630px'
+                    src='https://www.raicultura.it/musica/articoli/2020/04/M-come-Malipiero-I-cdf60139-3429-4c0f-a0c3-eb668b393cfb.html?autoplay=0'
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="col-sm-12 col-xl-6 shadow p-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" width='690px' height='630px'
+                    src='https://www.europeana.eu/item/08602/IL5000039652?autoplay=0' allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row p-0">
+              <div class="col-sm-12 col-xl-6 shadow p-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" width='690px' height='630px'
+                    src='https://www.raicultura.it/musica/articoli/2020/04/M-come-Malipiero-II-339ea35f-f0ae-4c4c-a8f1-1c713b6d0867.html?autoplay=0'
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="col-sm-12 col-xl-6 shadow p-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" width='690px' height='630px'
+                    src='https://www.teche.rai.it/wp-content/uploads/2015/02/ViaggioinItalia_4_Padova_e_Treviso6.mp4?_=1&autoplay=0'
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row p-0">
+              <div class="col-sm-12 col-xl-6 shadow p-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" width='690px' height='630px'
+                    src="https://www.youtube.com/embed/sKSr0z4qLrA" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="col-sm-12 col-xl-6 shadow p-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width='690px' height='630px' src="https://www.youtube.com/embed/IwPT9FtHeSY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="collapse" id="itemDetail2">
+          <div class="container-fluid mt-5 p-0">
+            <div class="row p-0 shadow">
+              <div class="col-sm-12 col-xl-6  p-3">
+                <iframe src="./img/objdownload1.pdf" width="100%" height="680px">
+                </iframe>
+                <p>UNE FETE A MANTOUE by Malipiero, Gian Francesco - Central Institute for the Union Catalogue of
+                  Italian Libraries, Italy - No Copyright - Other Known Legal Restrictions.
+                  https://www.europeana.eu/item/446/MI0285_LIBR01212</p>
+              </div>
+              <div class="col-sm-12 col-xl-6 p-3">
+                <iframe src="./img/objdownload.pdf" width="100%" height="680px">
+                </iframe>
+                <p>IL FINTO ARLECCHINO | di | G.FRANCESCO MALIPIERO by Malipiero, Gian Francesco - Central Institute for
+                  the Union Catalogue of Italian Libraries, Italy - No Copyright - Other Known Legal Restrictions.
+                  https://www.europeana.eu/item/446/MI0285_LIBR01006</p>
+              </div>
+            </div>
+            <div class="row p-0 shadow">
+              <div class="col-sm-12 col-xl-6  p-3">
+                <iframe src="./img/objdownload3.pdf" width="100%" height="680px">
+                </iframe>
+                <p>G. Francesco Malipiero
+                  by Malipiero, Gian Francesco, 1882-1973
+
+                  Publication date 1922
+                  Publisher London : Chester
+                  Collection bplill; bostonpubliclibrary; americana
+                  Digitizing sponsor Boston Public Library
+                  Contributor Boston Public Library
+                  Language English</p>
+              </div>
+              <div class="col-sm-12 col-xl-6 p-3">
+                <iframe src="./img/objdownload4.pdf" width="100%" height="680px">
+                </iframe>
+                <p>The orchestra
+                  by Malipiero, Gian Francesco, 1882-1973; Blom, Eric, 1888-1959</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="collapse" id="itemDetail3">
+          <div class="container-fluid mt-5 p-0">
+            <div class="row p-0 shadow">
+              <div class="col-sm-12 col-xl-6  p-3">
+                <iframe src="./img/scores/1.pdf" width="100%" height="680px">
+                </iframe>
+                <p>Editor Gian Francesco Malipiero (1882-1973)
+                  Publisher Info. Tutte le opere, Vol.16: Musica Religiosa, Part 2
+                  Vienna: Universal Edition, 1942. Plate XVI.
+                  Re-issue - 1968, Plate U.E. 9611B
+                  Copyright
+                  Public Domain</p>
+              </div>
+              <div class="col-sm-12 col-xl-6 p-3">
+                <iframe src="./img/scores/2.pdf" width="100%" height="680px">
+                </iframe>
+                <p>Editor Gian Francesco Malipiero (1882-1973)
+                  Publisher Info. Tutte le Opere di Claudio Monteverdi, Vol.9
+                  Vienna: Universal Edition, n.d.(1929), UE 32146, Plate IX
+                  Copyright
+                  Public Domain</p>
+              </div>
+            </div>
+            <div class="row p-0 shadow">
+              <div class="col-sm-12 col-xl-6  p-3">
+                <iframe src="./img/scores/3.pdf" width="100%" height="680px">
+                </iframe>
+                <p>Editor Gian Francesco Malipiero (1882-1973)
+                  Publisher Info. Tutte le opere, Vol.16: Musica Religiosa, Part 2
+                  Vienna: Universal Edition, 1942. Plate XVI.
+                  Re-issue - 1968, Plate U.E. 9611B
+                  Copyright
+                  Public Domain</p>
+              </div>
+              <div class="col-sm-12 col-xl-6 p-3">
+                <iframe src="./img/scores/4.pdf" width="100%" height="680px">
+                </iframe>
+                <p>Editor Gian Francesco Malipiero (1882-1973)
+                  Publisher Info. Tutte le opere, Vol.IV. Il Quarto libro di madrigali (pp.49-53)
+                  Asolo: Gian Francesco Malipiero, 1926. Plate IV.
+                  Reprinted Vienna: Universal Edition, 1966. Plate U.E. 14352.
+                  Copyright
+                  Public Domain
+                  Misc. Notes Text translation by Denis Arnold (1926-1986) omitted..</p>
+              </div>
+            </div>
+            <div class="row p-0 shadow">
+              <div class="col-sm-12 col-xl-6  p-3">
+                <iframe src="./img/scores/5.pdf" width="100%" height="680px">
+                </iframe>
+                <p>Editor Gian Francesco Malipiero (1882-1973)
+                  Publisher Info. Tutte le opere, Vol.16: Musica Religiosa, Part 2
+                  Vienna: Universal Edition, 1942. Plate XVI.
+                  Re-issue - 1968, Plate U.E. 9611B
+                  Copyright
+                  Public Domain</p>
+              </div>
+              <div class="col-sm-12 col-xl-6 p-3">
+                <iframe src="./img/scores/6.pdf" width="100%" height="680px">
+                </iframe>
+                <p>Editor Gian Francesco Malipiero (1882-1973)
+                  Publisher Info. Tutte le opere di Caludio Monteverdi, Vol.11
+                  Vienna: Universal Edition, 1930.
+                  Copyright
+                  Public Domain</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- APPROACH SECTION -->
+
+  <section id="sources" class="generic">
+    <div class="container">
+      <h2 class="display-5 text-danger mb-5"><b>Data Sources</b></h2>
+      <div class="row">
+        <div class="col-md-12 col-lg-4">
+          <div class="card bg-light border-0 mb-5">
+            <img src="./img/musicbrainz.jpg" class="card-img-top rounded-0">
+            <div class="card-body">
+              <h5 class="lead text-danger text-uppercase mb-4">Musicbrainz</h5>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      MusicBrainz API
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The API discussed here is an interface to the MusicBrainz Database. It
+                      is aimed at developers of media players, CD rippers, taggers, and other applications requiring
+                      music metadata. The API's architecture follows the REST design principles. Interaction with the
+                      API is done using HTTP and all content is served in a simple but flexible format, in either XML or
+                      JSON. XML is the default format; to get a JSON response, you can either set the Accept header to
+                      "application/json" or add fmt=json to the query string</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Data Extraction
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Data extraction was performed with the help of Musicbrainz API and
+                      Python, and the process was detailed in the Jupyternotebook. This jupyternotebook is available on
+                      <a href="https://github.com/malipieroproject/project" target="_blank"
+                        alt="Github Repository">github.</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Data Visualization
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The obtained data was visualized using the d3.js library and a network
+                      type data visualization was created. The obtained data was visualized using the d3.js library and
+                      a network type data visualization was created. It is possible to access the visualization and its
+                      codes through <a href="https://observablehq.com/d/73ce00fd1e0861c4" target="_blank"
+                        alt="Observable Repository">Observable.</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <div class="card bg-light border-0">
+            <img src="./img/wikidata.jpg" class="card-img-top rounded-0">
+            <div class="card-body">
+              <h5 class="lead text-danger text-uppercase mb-4">Wikidata</h5>
+              <div class="accordion accordion-flush" id="accordionFlushExample2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      Intro
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">Wikidata is a free, collaborative, multilingual, secondary database,
+                      collecting structured data to provide support for Wikipedia, Wikimedia Commons, the other wikis of
+                      the Wikimedia movement, and to anyone in the world. The Wikidata repository consists mainly of
+                      items, each one having a label, a description and any number of aliases. Items are uniquely
+                      identified by a Q followed by a number, such as Douglas Adams (Q42).</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      SPARQL
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">Data about Malipiero on Wikidata were queried with SPARQL and the
+                      results were obtained in JSON format. The data was then filtered just like the data from
+                      Musicbrainz.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                      Data Mashup
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">The data obtained from the Wikidata Sparql endpoint is then mashed with
+                      the previously obtained data and the resulting result is visualized.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <div class="card bg-light border-0 mb-5">
+            <img src="./img/europeana.JPG" class="card-img-top rounded-0 img-fluid">
+            <div class="card-body">
+              <h5 class="lead text-danger text-uppercase mb-4">Europeana</h5>
+              <div class="accordion accordion-flush" id="accordionFlushExample3">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                      Intro
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                    data-bs-parent="#accordionFlushExample3">
+                    <div class="accordion-body">Europeana is a web portal created by the European Union containing
+                      digitised cultural heritage collections of more than 3,000 institutions across Europe.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                      History
+                    </button>
+                  </h2>
+                  <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+                    data-bs-parent="#accordionFlushExample3">
+                    <div class="accordion-body">Europeana had its beginnings after a letter was jointly sent in April
+                      2005 by Jacques Chirac, President of France, and the premiers of Germany, Spain, Italy, Poland and
+                      Hungary to the President of the European Commission, José Manuel Durão Barroso. It urged the
+                      creation of a virtual European library in order to make Europe's cultural heritage more accessible
+                      to everyone.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingNine">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                      Data Usage
+                    </button>
+                  </h2>
+                  <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                    data-bs-parent="#accordionFlushExample3">
+                    <div class="accordion-body">Non-copyrighted videos about Malipiero from Europana, which acts as the
+                      aggregator, are included in the archive.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section id="dataviz">
+    <div class="container">
+      <h2 class="display-5 text-danger mb-5"><b>Data Visualization</b></h2>
+      <iframe width="100%" height="1041" frameborder="0"
+        src="https://observablehq.com/embed/73ce00fd1e0861c4@104?cells=viewof+collideStrenght%2Cinteractive_network"></iframe>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- APPROACH SECTION  -->
+
+
+
+
+
+  <!--TEAM SECTION-->
+
+  <section id="contact" class="generic dark-bg1">
+    <div class="container">
+      <h2 class="display-5 text-light mb-5"><b>Contact</b></h2>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 p-0">
+          <div class="d-grid bg-danger py-5">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger rounded-0 py-5" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              <span class="lead text-uppercase"><b>Institute</b></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3  p-0">
+          <div class="d-grid bg-primary py-5">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary rounded-0 py-5" data-bs-toggle="modal"
+              data-bs-target="#exampleModal2">
+              <span class="lead text-uppercase"><b>Coordinator</b></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3  p-0">
+          <div class="d-grid bg-success py-5">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success rounded-0 py-5" data-bs-toggle="modal"
+              data-bs-target="#exampleModal3">
+              <span class="lead text-uppercase"><b>Supervisor</b></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3  p-0">
+          <div class="d-grid bg-secondary py-5">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary rounded-0 py-5" data-bs-toggle="modal"
+              data-bs-target="#exampleModal4">
+              <span class="lead text-uppercase"><b>Developer</b></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--MODAL-->
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          <div class="modal-body">
+            <img src="./img/team1.jpg" class="img-fluid rounded">
+            <h5 class="lead text-danger mt-2">L'Associazione Amici di Casa Malipiero</h5>
+            <p>The association is a non-profit and no- commercial entity born from an idea of
+              the Maestro Roberto Zarpellon to carry out the conservation, the value appreciation and the
+              cultural spreading. His purpose is increasing and maintaining alive the interest of the citizens into the
+              "Casa di Malipiero ad Asolo".
+              His project has the awareness that the love for art, music and culture have at all times and places, have
+              improved the social aggregate level, the sense of belonging to the community and have devolved the human
+              sensivity for the benefit of the entire society, therefore allowing the social and civil growth.</p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          <div class="modal-body">
+            <img src="./img/maestro.jpg" class="img-fluid rounded">
+            <h5 class="lead text-danger mt-2">Maestro Roberto Zarpellon</h5>
+            <p>Roberto Zarpellon started attending the Academy of Music and Fine Arts in Vienna in 1983, and he
+              graduated in Organ and Organ Composition at the Conservatory "S. Cecilia" in Rome in 1985. He later
+              received a degree from the Academy of Vienna in 1988, where he studied with Professor Alfred Mitterhofer.
+              Zarpellon has conducted various orchestras and performances across Europe, the United States, Brazil, and
+              Japan. He has also recorded with renowned record labels such as DG, FraBernardo, and Nuova Era. Zarpellon
+              is the founder of the "Lorenzo Da Ponte" Chamber Orchestra, and he is a professor of Orchestra at the
+              Conservatory of Castelfranco Veneto. He has written essays and publications, including "La musica degli
+              Affetti," and has worked as a consultant for the Italian Ministry of Cultural Heritage.
+              Summary: Roberto Zarpellon is an accomplished musician and conductor who has studied and performed across
+              Europe, the United States, Brazil, and Japan. He is the founder of the "Lorenzo Da Ponte" Chamber
+              Orchestra and a professor of Orchestra at the Conservatory of Castelfranco Veneto. He has recorded with
+              respected labels and written essays and publications, including "La musica degli Affetti," and has worked
+              as a consultant for the Italian Ministry of Cultural Heritage.
+            </p>
+
+
+            <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+              <a href="https://www.linkedin.com/in/roberto-zarpellon-42a33559/" target="_blank"
+                class="btn btn-warning rounded-0 btn-link text-decoration-none" style="color: black;">LINKEDIN</a>
+              <a href="https://www.robertozarpellon.com/" target="_blank"
+                class="btn btn-success rounded-0 btn-link text-decoration-none" style="color: black;">WEBSITE</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          <div class="modal-body">
+            <img src="./img/SimonaCaraceni.jpg" class="img-fluid rounded mx-auto d-block">
+            <h5 class="lead text-danger mt-2">Simona Caraceni</h5>
+            <p>Professor Caraceni is a specialist in technology for the cultural assets field, with a focus on new media
+              communication, e-learning, and project management. Since 1994, she has been involved in the application of
+              new media and technology in the fields of communication and art. She has taught at several prestigious
+              universities in Italy, including the Universities of Bozen, Florence, Milan, Macerata, and Bologna, and
+              has been a research fellow at the University of Bologna's Education Department. Her theoretical interests
+              include internet-based communication, museum and technology, man-machine interfaces, multimedia and
+              multimodality, video games, and new media languages of communication. She has worked on applied research
+              projects with the University of Bologna, NABA, the City Council of Bologna, the Regional Council of Emilia
+              Romagna, and Cineca, focusing on opportunities in online communication, multimedia and multimodal
+              interfaces, and e-learning. As an ICOM member and the promoter of the "Audio-video and new technology"
+              Italian committee, she specializes in virtual museums and has been an elected member of the AVICOM
+              International executive board, serving as vice president of AVICOM from 2013 to 2016.</p>
+
+
+            <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+              <a href="https://it.linkedin.com/in/simonacaraceni" target="_blank"
+                class="btn btn-warning rounded-0 btn-link text-decoration-none" style="color: black;">LINKEDIN</a>
+              <a href="https://it-it.facebook.com/simona.caraceni.73/" target="_blank"
+                class="btn btn-success rounded-0 btn-link text-decoration-none" style="color: black;">FACEBOOK</a>
+              <a href="https://twitter.com/hitechmuseum" target="_blank"
+                class="btn btn-info rounded-0 btn-link text-decoration-none" style="color: black;">TWITTER</a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4-->
+
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          <div class="modal-body">
+            <img src="./img/umutkucukphoto1.jpg" class="img-fluid rounded mx-auto d-block">
+            <h5 class="lead text-danger mt-2">Umut Kucuk</h5>
+            <p>In 2015 I graduated in Cinema. Then I did a master's degree in communication sciences. In 2017 I went to
+              Ireland for 6 months to study English. In 2018 I spent 1 academic year in Budapest at the Pázmány Péter
+              Catholic University. I am currently attending a master's degree in Digital Humanities at the University of
+              Bologna. I am interested in learning different languages and cultures. My native language is Turkish, I
+              speak English and Italian. I am currently learning German.</p>
+
+
+            <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+              <a href="https://www.linkedin.com/in/umut-kucuk-071686156" target="_blank"
+                class="btn btn-warning rounded-0 btn-link text-decoration-none" style="color: black;">LINKEDIN</a>
+              <a href="https://www.facebook.com/umut.kucuk.54379" target="_blank"
+                class="btn btn-success rounded-0 btn-link text-decoration-none" style="color: black;">FACEBOOK</a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <footer>
+    <div class="container-fluid bg-dark text-center py-4 lead text-light">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank"><img
+          alt="Creative Commons License" style="border-width:0"
+          src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a
+        rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial
+        4.0 International License</a>.
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
